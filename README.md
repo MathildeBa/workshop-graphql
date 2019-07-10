@@ -1,13 +1,20 @@
-# Step5 - Nouveau 'Type' et 'TypeRelation'   
+# Strepsils - Remplacer les dummy datas par une API.
 
-Connecter deux tableaux de données via les la RootQuery.
+- installation et import de 'axios' : 
+``` 
+$ npm install axios   
+```   
+- mettre en commentaire les dummy datas et dans 'UserType' dans le fields watches   
+- faire l'appel d'API dans le 'RootQuery'    
+    -> 'octocats' pour la liste entière    
+    -> 'octocat' pour extraire l'item du tableau
+    
 
-![Gandalf](https://media.giphy.com/media/KiXl0vfc9XIIM/giphy.gif)   
+             
 
-- more dummy datas(veilles BeCode).   
-- creation d'un nouveau Type : 'WatchType'   
-- on represente son entrée dans notre RootQuery   
-- définir la relation entre nos deux types : 'UserType' et 'WatchType'   
-- dans RootQuery fields on creer les listes pour afficher les dummy data (tableau)   
-- dans le 'WatchType' on va cheer le chemin pour trouver l'ID des Octocats(UserType) sous forme de liste et les infos qui s'en découlent   
-- dans le 'UserType' on va cheer le chemin pour trouver l'ID des watches(WatchType) sous forme de liste et les infos qui s'en découlent
+
+### Documentation
+
+- Google Sheet Becodiens BXL : https://docs.google.com/spreadsheets/d/1Sw4tskVtwWO-qaXtbGVY96gQm79AHq3U4VYCiUMBcx0/edit?usp=sharing
+- Sheety.co pour transformer un Google Sheet en API JSON : https://sheety.co/
+- Le JSON (qui peut changer) : https://api.sheety.co/97ac06ad-6ce3-4719-ad8d-8ea8711b328b
