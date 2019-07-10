@@ -1,12 +1,11 @@
-# Step1-preparation du server GraphQL.
+# Step2 - preparation du serveur GraphQL (II)
 
-Mise en place de l'environement express sur le port 4000.
+Mise en place du serveur GraphQL  
 
--creer un forlder : 'mkdir server'
--dans la console : ```npm init -y``` qui va initialiser un package.json  
--installer Express dans 'server' : ```npm install express``` 
-  (https://www.npmjs.com/package/express) 
--dans 'server' creer un fichier : app.js
-- code importer.
--installer nodemon : ```npm install nodemon -g``` redemarer le server a chaque chamgements
-  (https://www.npmjs.com/package/nodemon) 
+- installation du package express graphql-express   
+https://www.npmjs.com/package/express-graphql
+``` npm install --save express-graphql ```
+- importer express graphQL et on creer une fonction qui servira de noeud central/middleware et envera les requetes graphQL dans un seul endroit. 
+- lancer l'application 
+```nodemon app```
+
