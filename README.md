@@ -1,15 +1,22 @@
-# Step2 - preparation du serveur GraphQL (II)
+# Step3 - Mise en place du graphQL schema
 
-Mise en place du serveur GraphQL  
+affin de lancer quelque chose dans le serveur, il faudra quelque chose a executer. 
 
-- installation du package express graphql-express   
-(https://www.npmjs.com/package/express-graphql)   
-``` npm install --save express-graphql ```   
-- importer express graphQL et on creer une fonction qui servira de noeud central/middleware et envera les requetes graphQL dans un seul endroit. 
-- lancer l'application pour ecouter les mises a jour du serveur node   
-```nodemon app```
-- RDV sur localhost:4004/graphql
+- dans le 'server' :    
+  ```mkdir schema ```   
+- dans le 'schema' :    
+  ```touch schema.js```
+- dans 'schema' on y importe graphQL    
+- extraire/destructurer les objects de graphQL dont on aura besoin plus tard   
+- importer les dummy datas   
+```[
+{id: 0, prenom: "Corneliu", nom: "Gaina", gitHub: "corneliushka", linkedIn: "https://www.linkedin.com/in/corneliugaina/", promo: "lovelace"},
+{id: 1, prenom: "Maxime", nom: "Broodcoorens",gitHub: "Broodco", linkedIn: "https://www.linkedin.com/in/maxime-broodcoorens-783472168/", promo: "lovelace" },
+{ id: 2, prenom: "Emilie", nom: "Bialais",gitHub: "ebialais",linkedIn:"https://www.linkedin.com/in/emilie-bialais-b4b67658/", promo: "lovelace" },
+{id: 3,prenom: "Pierre-Louis ",nom: "Picard",gitHub: "Pierre-Louis242",linkedIn:"https://www.linkedin.com/in/pierre-louis-picard-b30993a8/",promo: "lovelace"},
+{id: 4,prenom: "Mathilde",nom: "Baquet",gitHub: "MathildeBa",linkedIn:"https://www.linkedin.com/in/mathilde-baquet",promo: "lovelace"
+},{id: 5,prenom: "Andres",nom: "Goldestein",gitHub: "AndresGol",linkedIn:"https://www.linkedin.com/in/andr%C3%A9s-goldestein-21a8a4156/",promo: "lovelace"},]
+```
+- construction de notre premier type   
+      
 
-<iframe src="https://giphy.com/embed/RG3lm5VlrbDV7YNana" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/simpsons-nelson-the-RG3lm5VlrbDV7YNana">via GIPHY</a></p>
-
-# GO STEP3
