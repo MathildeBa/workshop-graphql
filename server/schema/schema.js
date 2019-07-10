@@ -19,13 +19,13 @@ const octocats = [
 ]
 
 const watches = [
-    {id: "1", octocatId: 3, date: 190319, subject: "Power BI", link: "https://powerbi.microsoft.com/fr-fr/"},
-    {id: "2", octocatId: 2, date: 150419, subject: "Black Hole", link:  "https://drive.google.com/open?id=1ZWgEnRzZyCS5RX0AoEPfinbIbmfAQo1Y-JT1E-CyRsU"},
-    {id: "3", octocatId: 2, date: 250219, subject: "La minute santé", link: "https://docs.google.com/presentation/d/1bVct12Ttw16G7B-"},
-    {id: "4", octocatId: 1, date: 180419, subject: "Back-end: choix d'une technologie", link: "https://slides.com/broodco/deck-1#/"},
-    {id: "5", octocatId: 2, date: 20519, subject: "Performance", link: "https://docs.google.com/presentation/d/1g3YF0yUndVZ0n2wGrFxL_85ChPPFjcn0sTLiux2T6aI/edit?usp=sharing"},
-    {id: "6", octocatId: 3, date: 40219, subject: "Photo Wake-up 3D, donner vie aux images", link:  "https://github.com/Pierre-louis242/The-Watch-"},
-    {id: "7", octocatId: 1, date: 210219, subject: "Raspberry Pi", link: "https://www.raspberrypi.org/"}
+    {id: "1", octocatId: "3", date: 190319, subject: "Power BI", link: "https://powerbi.microsoft.com/fr-fr/"},
+    {id: "2", octocatId: "2", date: 150419, subject: "Black Hole", link:  "https://drive.google.com/open?id=1ZWgEnRzZyCS5RX0AoEPfinbIbmfAQo1Y-JT1E-CyRsU"},
+    {id: "3", octocatId: "2", date: 250219, subject: "La minute santé", link: "https://docs.google.com/presentation/d/1bVct12Ttw16G7B-"},
+    {id: "4", octocatId: "1", date: 180419, subject: "Back-end: choix d'une technologie", link: "https://slides.com/broodco/deck-1#/"},
+    {id: "5", octocatId: "2", date: 20519, subject: "Performance", link: "https://docs.google.com/presentation/d/1g3YF0yUndVZ0n2wGrFxL_85ChPPFjcn0sTLiux2T6aI/edit?usp=sharing"},
+    {id: "6", octocatId: "3", date: 40219, subject: "Photo Wake-up 3D, donner vie aux images", link:  "https://github.com/Pierre-louis242/The-Watch-"},
+    {id: "7", octocatId: "1", date: 210219, subject: "Raspberry Pi", link: "https://www.raspberrypi.org/"}
 ]
 
 // 4. on va créer deja notre 1er type dans le schema (UserType), on donne un nom à notre objet (octocat) + fields avec le type correspondant
