@@ -1,4 +1,4 @@
-# Step1-preparation du server GraphQL.
+# Step1 - preparation du server GraphQL.
 
 Mise en place de l'environement express sur le port 4000.
 
