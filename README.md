@@ -9,7 +9,8 @@ affin de lancer quelque chose dans le serveur, il faudra quelque chose a execute
 - dans 'schema' on y importe graphQL    
 - extraire/destructurer les objects de graphQL dont on aura besoin plus tard   
 - importer les dummy datas   
-```[
+```
+[
 {id: 22,prenom: "Cedric",nom: "Van Hove",gitHub: "cevaho",linkedIn: "https://www.linkedin.com/in/c%C3%A9dric-van-hove-99250926/",promo: "johnson"},
 {id: 1, prenom: "Maxime", nom: "Broodcoorens",gitHub: "Broodco", linkedIn: "https://www.linkedin.com/in/maxime-broodcoorens-783472168/", promo: "lovelace" },
 {id: 2, prenom: "Emilie", nom: "Bialais",gitHub: "ebialais",linkedIn:"https://www.linkedin.com/in/emilie-bialais-b4b67658/", promo: "lovelace" },
