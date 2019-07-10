@@ -1,20 +1,36 @@
-# Strepsils - Remplacer les dummy datas par une API.
+# Strep7 - Ajout de REACT.js
 
-- installation et import de 'axios' : 
-``` 
-$ npm install axios   
+ajouter et connection du front end et en ressortir les donées react/graphQL.
+
+- installer react a la racine (hors du server)   
 ```   
-- mettre en commentaire les dummy datas et dans 'UserType' dans le fields watches   
-- faire l'appel d'API dans le 'RootQuery'    
-    -> 'octocats' pour la liste entière    
-    -> 'octocat' pour extraire l'item du tableau
-    
+npm install create-react-app -g
+```
+- creer react app a la racine (hors du server)    
+```     
+create -react -app client
+```   
+- nettoyer le folder 'src' on garde: 'App.js', 'index.css' et 'index.js' (virer le service provider )
+- creer dans src un folder : 'components'   
+- dans le folder creation d'un component (ENFIIIIIN!!!!!) : 'OctocatList.js'
+- mise en place du component 'OctocatList.js'   
 
-             
 
+### dans 'App.js'    
 
-### Documentation
+- importer le component     
+- installation des paquets npm pour lier react a graphQL   
+Apollo (https://www.npmjs.com/package/apollo-client)   
+middleware entre React(client) et GraphQL(server)
+```
+npm install apollo-boost react-apollo graphql --save
+```
+- on importe ApolloProvider ET ApolloClient   
+- set up ApolloClient 
+- wrapper le contenu de ApolloProvider  
 
-- Google Sheet Becodiens BXL : https://docs.google.com/spreadsheets/d/1Sw4tskVtwWO-qaXtbGVY96gQm79AHq3U4VYCiUMBcx0/edit?usp=sharing
-- Sheety.co pour transformer un Google Sheet en API JSON : https://sheety.co/
-- Le JSON (qui peut changer) : https://api.sheety.co/97ac06ad-6ce3-4719-ad8d-8ea8711b328b
+### dans 'octocatList.js'   
+
+- import de {gql} apd ApolloBoost (ATTENTION CA RESSEMBLE A DU JAVASCRIPT MAIS CA N'EN EST PAS!!!!)
+![illusion](https://media.giphy.com/media/1lyMSBZZcieVKOaZuW/giphy.gif)   
+- import de {graphQL}
