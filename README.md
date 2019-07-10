@@ -15,6 +15,7 @@ create -react -app client
 - dans le folder creation d'un component (ENFIIIIIN!!!!!) : 'OctocatList.js'
 - mise en place du component 'OctocatList.js'   
 
+
 ### dans 'App.js'    
 
 - importer le component     
@@ -24,6 +25,12 @@ middleware entre React(client) et GraphQL(server)
 ```
 npm install apollo-boost react-apollo graphql --save
 ```
-- on importe ApolloProvider   
-- set up apollo client 
-- wrapper le contenu de ApolloProvider
+- on importe ApolloProvider ET ApolloClient   
+- set up ApolloClient 
+- wrapper le contenu de ApolloProvider  
+
+### dans 'octocatList.js'   
+
+- import de {gql} apd ApolloBoost (ATTENTION CA RESSEMBLE A DU JAVASCRIPT MAIS CA N'EN EST PAS!!!!)
+![illusion](https://media.giphy.com/media/1lyMSBZZcieVKOaZuW/giphy.gif)   
+- import de {graphQL}
