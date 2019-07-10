@@ -1,18 +1,13 @@
-# Step4 - mise en place du RootQuery
+# Step5 - Nouveau 'Type' et 'TypeRelation'   
 
-Le RootQuery représente toutes les entrées possibles dans le GraphQL API    
-![Gandalf](https://media.giphy.com/media/Ur0rNmZjAd7lm/giphy.gif)
+Connecter deux tableaux de données via les la RootQuery.
 
+![Gandalf](https://media.giphy.com/media/KiXl0vfc9XIIM/giphy.gif)   
 
-- creation du nouvel objet GraphQL appelé RootQuery.    
-- exporter le schema    
-- dans app.js on importe le schema(+ dans app.use) et y autoriser graphQL   
-- installer la librairie 'lodash' : ``` npm install lodash ``` qui permet de modifier la DB dans l'array     
-https://www.npmjs.com/package/lodash    
-
-- importer lodash dans le fichier
-
-
-
-
-
+- more dummy datas(veilles BeCode).   
+- creation d'un nouveau Type : 'WatchType'   
+- on represente son entrée dans notre RootQuery   
+- définir la relation entre nos deux types : 'UserType' et 'WatchType'   
+- dans RootQuery fields on creer les listes pour afficher les dummy data (tableau)   
+- dans le 'WatchType' on va cheer le chemin pour trouver l'ID des Octocats(UserType) sous forme de liste et les infos qui s'en découlent   
+- dans le 'UserType' on va cheer le chemin pour trouver l'ID des watches(WatchType) sous forme de liste et les infos qui s'en découlent
