@@ -1,3 +1,3 @@
 # workshop-graphql
 
-Introduction
+Step 1
