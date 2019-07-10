@@ -20,5 +20,7 @@ affin de lancer quelque chose dans le serveur, il faudra quelque chose a execute
 ]
 ```
 - construction de notre premier type   
+```javascript
+
       
 
