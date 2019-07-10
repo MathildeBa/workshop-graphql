@@ -4,7 +4,13 @@
 ``` 
 $ npm install axios   
 ```   
-- 
+- mettre en commentaire les dummy datas et dans 'UserType' dans le fields watches   
+- faire l'appel d'API dans le 'RootQuery'    
+    -> 'octocats' pour la liste entière    
+    -> 'octocat' pour extraire l'item du tableau
+    
+
+             
 
 
 ### Documentation
