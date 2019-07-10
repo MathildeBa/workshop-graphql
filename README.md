@@ -25,7 +25,9 @@ Essayer dans Localhost/4000/graphql :
 }   
 ```
 
-app.js   
+
+
+## app.js   
 ```javascript   
 const express = require('express'); // 1.
 const graphqlHTTP = require('express-graphql'); // 4. création du serveur express qui va executer graphql api
@@ -43,7 +45,7 @@ app.listen(4004, () => { // 3. une fois installé nodemon, va "ecouter les chang
 
 ```   
 
-schema.js   
+## schema.js   
 ```javascript   
 
 const graphql = require('graphql'); // 1. on va attribuer à une variable le paquet npm graphql précédemment installé
