@@ -14,7 +14,7 @@ Connecter deux tableaux de données via la RootQuery.
 
 
 ## app.js   
-```   
+```javascript   
 const express = require('express'); // 1.
 const graphqlHTTP = require('express-graphql'); // 4. création du serveur express qui va executer graphql api
 const schema = require('./schema/schema') // 6. une fois notre schema defini (cf. schema.js), on l'importe 
@@ -35,7 +35,7 @@ app.listen(4000, () => { // 3. une fois installé nodemon, va "ecouter les chang
 ```
 
 ## schema.js   
-```   
+```javascript   
 const graphql = require('graphql'); // 1. on va attribuer à une variable le paquet npm graphql précédemment installé
 const _ = require('lodash'); // 7. apres avoir installé lodash 
 
