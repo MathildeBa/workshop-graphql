@@ -27,7 +27,6 @@ function App() {
         <OctocatList/>
       </div>
     </ApolloProvider>
-
   );
 }
 
