@@ -47,9 +47,10 @@ class OctocatList extends Component {
                     return (                
                     <div>
                         <ul id="octocat-list">
-                            {data.octocats && data.octocats.map((octocat) => (
-                                <li>
-                                    {octocat.id} : {octocat.prenom} {octocat.nom}
+                            {data.octocats && data.octocats.map(octocat => (
+                                //assignation dune clef pour chaque octocat
+                                <li key={`octocat${octocat.id}`}>
+                                    {octocat.id} : {octocat.prenom} {octocat.nom}, GitHub: {octocat.gitHub}
                                 </li>
                             ))}
                         </ul>
@@ -63,6 +64,8 @@ class OctocatList extends Component {
 
 // faire attention d'exporter le component 
 export default OctocatList
+
+
 ```
 
 
