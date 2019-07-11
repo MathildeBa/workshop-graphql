@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
 import  { gql } from 'apollo-boost'
-import { graphql } from 'react-apollo'
+import { Query } from 'react-apollo'
 
 // avec les imports gql et graphql, on lie notre requete du component à notre schèma (server)
-const getOctocatQuery = gql
-    ` 
-    {
+const getOctocatQuery = gql`{
         octocats {
             id
             nom 
@@ -30,17 +28,28 @@ class OctocatList extends Component {
         }
     } */
     render() {
-        console.log(this.props);
         return(
-            <div>
-                <ul id="octocat-list">
-{/*                     <li>{this.displayOctocats}</li>
- */}                </ul>
-            </div>
+            <Query query={getOctocatQuery}>
+                {({ data, loading, error}) => {
+                    if (loading) return <p>Loading...</p>
+                    if (error) return <p>Error</p>
+                    return (                
+                    <div>
+                        <ul id="octocat-list">
+                            {data.octocats && data.octocats.map((octocat) => (
+                                <li>
+                                    {octocat.id} : {octocat.prenom} {octocat.nom}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                    )
+                }}
+            </Query>
         );
     }
 }
 
 // faire attention d'exporter le component 
-export default graphql(getOctocatQuery)(OctocatList);
+export default OctocatList
 
