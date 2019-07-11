@@ -61,7 +61,7 @@ import App from './App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 ```   
-## components/octocatList   
+## components/octocatList.js   
 ```javascript   
 import React, { Component } from 'react'
 import  { gql } from 'apollo-boost'
