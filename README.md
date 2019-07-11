@@ -28,6 +28,8 @@ npm install apollo-boost react-apollo graphql --save
 - on importe ApolloProvider ET ApolloClient   
 - set up ApolloClient 
 - wrapper le contenu de ApolloProvider  
+- Démarer react   
+```npm start```
 
 ### dans 'octocatList.js'   
 
