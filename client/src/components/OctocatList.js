@@ -16,7 +16,7 @@ const getOctocatQuery = gql
     `
 
 class OctocatList extends Component {
-    displayOctocats(){ // methode de rendu 
+/*     displayOctocats(){ // methode de rendu 
         var data = this.props.data;
         if(data.loading){
             return (<div>Loading octocats...</div>);
@@ -28,14 +28,14 @@ class OctocatList extends Component {
                 );
             })
         }
-    }
+    } */
     render() {
         console.log(this.props);
         return(
             <div>
                 <ul id="octocat-list">
-                    <li>{this.displayOctocats}</li>
-                </ul>
+{/*                     <li>{this.displayOctocats}</li>
+ */}                </ul>
             </div>
         );
     }
