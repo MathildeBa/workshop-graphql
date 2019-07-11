@@ -10,7 +10,7 @@ Les animateurs de ce workshop on eut énormément des challenges à relever, mai
 ## introduction   
 ## GraphQL en 2 mots   
 Présentation et ressources dans ces (20) slides : https://docs.google.com/presentation/d/1UDlUcErCmTfyaajZXjnlxrwdAkIh--js7Cfnlim6JDQ/edit#slide=id.g5d0a49c5d2_0_12 
-## step 1 - preparation du server GraphQL.
+## Step1 - preparation du server GraphQL.
 ## Step2 - preparation du serveur GraphQL (II)
 ## Step3 - Mise en place du graphQL schema
 ## Step4 - mise en place du RootQuery et de la resolve fonction
