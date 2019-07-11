@@ -7,6 +7,7 @@ Jeudi 11 juillet 2019. Présentation d'un workshop qui aura pour sujet :'afficha
   
 - Dans ce repo chaque étape est séparée sur des branches différentes.      
 - Présentation et ressources dans ces (20) slides : https://docs.google.com/presentation/d/1UDlUcErCmTfyaajZXjnlxrwdAkIh--js7Cfnlim6JDQ/edit#slide=id.g5d0a49c5d2_0_12 
+- Interview Vidéo : [Youtube - BeCode Brussels - Workshop Connexion React and API via schema GraphQL // July 2019](https://www.youtube.com/watch?v=A3vPCfAJaN4)
 
 ## Plan de la journée
 
