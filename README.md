@@ -72,7 +72,7 @@ const octocats = [
 const UserType = new GraphQLObjectType ({ 
     name: 'octocat',
     fields: () => ({
-        id: {type: GraphQLID},
+        id: {type: GraphQLString},
         prenom: {type: GraphQLString},
         nom: {type: GraphQLString},
         gitHub: {type: GraphQLString},
