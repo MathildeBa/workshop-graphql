@@ -34,7 +34,7 @@ class OctocatList extends Component {
         return(
             <div>
                 <ul id="octocat-list">
-                    <p>{this.displayOctocats}</p>
+                    <li>{this.displayOctocats}</li>
                 </ul>
             </div>
         );
