@@ -39,7 +39,7 @@ npm install apollo-boost react-apollo graphql --save
 
 
 ## retour dans 'server'
-- installer 'corss' qui permet de faire le cross-origin request entre server-client   
+- installer 'cors' qui permet de faire le cross-origin request entre server-client   
 ```   
 npm install cors --save
 ```   
@@ -47,3 +47,7 @@ npm install cors --save
 ## dans 'app.js'   
 - importer cors
 
+- maintenant configuration du lien entre server(GraphQL) et front(React.js) est finie
+- verifier le localhost:3000. Dans la console on peut apercevoir qu'on recoit en effet les data. 
+
+__Passer a la STEP8 pour le rendu des datas dans le component__
