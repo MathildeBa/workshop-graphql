@@ -8,7 +8,7 @@ npm install create-react-app -g
 ```
 - creer react app a la racine (hors du server)    
 ```     
-create -react -app client
+create-react-app client
 ```   
 - nettoyer le folder 'src' on garde: 'App.js', 'index.css' et 'index.js' (virer le service provider )
 - creer dans src un folder : 'components'   
