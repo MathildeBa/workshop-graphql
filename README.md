@@ -2,6 +2,9 @@
 
 
 - creer une methode (dans le style de render) qui recupère les datas issues de la requête faite a l'etape d'avant, displayOctocats(){}.   
+- inporter Query de Appolo   
+- extraire du tableau chaque Octocats en précisent les champs utiles   
+(Documentation de apolloClient : https://www.apollographql.com/docs/react/essentials/queries/)
 
 ## components/octocatList.js   
 ```Javascript   
