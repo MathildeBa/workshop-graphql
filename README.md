@@ -11,6 +11,16 @@ Le RootQuery représente toutes les entrées possibles dans le GraphQL API et la
 - exporter le schema      
 - dans la RootQuery on creer la fonction resolve   
 - on return avec la methode 'lodash' la recherche de l'octocat lier a un certain ID
+- dans app.js on importe le schema(+ dans app.use) et y autoriser graphQL 
+- Essayer dans Localhost/4000/graphql : 
+```   
+{
+  octocat(id: 2) {
+    nom
+    prenom
+  }
+}   
+```
 
 
 
