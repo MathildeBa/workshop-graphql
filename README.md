@@ -31,6 +31,19 @@ npm install apollo-boost react-apollo graphql --save
 
 ### dans 'octocatList.js'   
 
-- import de {gql} apd ApolloBoost (ATTENTION CA RESSEMBLE A DU JAVASCRIPT MAIS CA N'EN EST PAS!!!!)
+- import de {gql} (ATTENTION CA RESSEMBLE A DU JAVASCRIPT MAIS CA N'EN EST PAS!!!!)
 ![illusion](https://media.giphy.com/media/1lyMSBZZcieVKOaZuW/giphy.gif)   
-- import de {graphQL}
+- import de {graphQL}   
+- creer une variable pour nous permettre de faire une query   
+- ne pas oublier d'exporter le component avec la fonction grqphql et l'argument qui est le nom de la variable précedemment crééé
+
+
+## retour dans 'server'
+- installer 'corss' qui permet de faire le cross-origin request entre server-client   
+```   
+npm install cors --save
+```   
+
+## dans 'app.js'   
+- importer cors
+
