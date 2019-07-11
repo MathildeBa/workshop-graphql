@@ -4,16 +4,6 @@ Connecter deux tableaux de données via la RootQuery.
 
 ![Gandalf](https://media.giphy.com/media/KiXl0vfc9XIIM/giphy.gif)   
 
-- dans app.js on importe le schema(+ dans app.use) et y autoriser graphQL 
-- Essayer dans Localhost/4000/graphql : 
-```   
-{
-  octocat(id: 2) {
-    nom
-    prenom
-  }
-}   
-```
 
 - more dummy datas(veilles BeCode).   
 - creation d'un nouveau Type : 'WatchType'   
