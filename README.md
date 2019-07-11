@@ -14,17 +14,6 @@ Le RootQuery représente toutes les entrées possibles dans le GraphQL API et la
 
 
 
-Essayer dans Localhost/4000/graphql : 
-```   
-{
-  octocat(id: 2) {
-    nom
-    prenom
-  }
-}   
-```
-
-
 
 ## app.js   
 ```javascript   
