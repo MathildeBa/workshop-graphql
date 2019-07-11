@@ -34,8 +34,7 @@ npm install apollo-boost react-apollo graphql --save
 ### dans 'octocatList.js'   
 
 - import de {gql} (ATTENTION CA RESSEMBLE A DU JAVASCRIPT MAIS CA N'EN EST PAS!!!!)
-![illusion](https://media.giphy.com/media/1lyMSBZZcieVKOaZuW/giphy.gif)   
-- import de {graphQL}   
+![illusion](https://media.giphy.com/media/1lyMSBZZcieVKOaZuW/giphy.gif)     
 - creer une variable pour nous permettre de faire une query   
 - ne pas oublier d'exporter le component avec la fonction grqphql et l'argument qui est le nom de la variable précedemment crééé
 
@@ -67,7 +66,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```javascript   
 import React, { Component } from 'react'
 import  { gql } from 'apollo-boost'
-import { graphql } from 'react-apollo'
 
 // avec les imports gql et graphql, on lie notre requete du component à notre schèma (server)
 const getOctocatQuery = gql` 
