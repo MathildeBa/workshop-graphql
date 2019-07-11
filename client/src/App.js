@@ -9,7 +9,7 @@ import { HttpLink } from 'apollo-link-http';
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
-  uri: 'http://localhost:4000/graphql/'
+  uri: 'http://localhost:4044/graphql/'
 })
 
 
@@ -20,7 +20,6 @@ const client = new ApolloClient ({
 })
 
 function App() {
-  
   return (
     <ApolloProvider client={client}>
       <div className="App">

@@ -7,7 +7,7 @@ const getOctocatQuery = gql`
     {
         octocats {
             id
-            name 
+            nom 
             gitHub
             linkedIn
         }
