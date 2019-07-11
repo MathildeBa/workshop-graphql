@@ -4,6 +4,8 @@ Jeudi 11 juillet 2019. Présentation d'un workshop qui aura pour sujet :'afficha
 Durée : 7 h.    
 Dans ce repo chaque étape est séparée sur des branches différentes.    
 
+Présentation et ressources dans ces slides : https://docs.google.com/presentation/d/1UDlUcErCmTfyaajZXjnlxrwdAkIh--js7Cfnlim6JDQ/edit#slide=id.g5d0a49c5d2_0_12 
+
 Les animateurs de ce workshop on eut énormément des challenges à relever, mais également beaucoup de plaisir à le réaliser.
 
 ## introduction   
