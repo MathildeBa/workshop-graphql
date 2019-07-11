@@ -50,4 +50,85 @@ npm install cors --save
 - maintenant configuration du lien entre server(GraphQL) et front(React.js) est finie
 - verifier le localhost:3000. Dans la console on peut apercevoir qu'on recoit en effet les data. 
 
-__Passer a la STEP8 pour le rendu des datas dans le component__
+__Passer a la STEP8 pour le rendu des datas dans le component__   
+
+## index.js
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+```   
+## components/octocatList   
+```javascript   
+import React, { Component } from 'react'
+import  { gql } from 'apollo-boost'
+import { graphql } from 'react-apollo'
+
+// avec les imports gql et graphql, on lie notre requete du component à notre schèma (server)
+const getOctocatQuery = gql` 
+    {
+        octocats {
+            id
+            nom 
+            gitHub
+            linkedIn
+        }
+    }
+`
+
+class OctocatList extends Component {
+    render() {
+        console.log(this.props);
+        return(
+            <div>
+                <ul id="octocat-list">
+                    <li>Nom d'octocat</li>
+                </ul>
+            </div>
+        );
+    }
+}
+// faire attention d'exporter le component 
+export default graphql(getOctocatQuery)(OctocatList);   
+```
+
+## App.js
+```javascript
+import React from 'react';
+import OctocatList from './components/OctocatList';
+import { ApolloProvider } from 'react-apollo';
+
+// Depuis Apollo 2.x , il faut importer ces packages supplémentaires 
+import { ApolloClient } from 'apollo-client';
+import { InMemoryCache } from 'apollo-cache-inmemory';
+import { HttpLink } from 'apollo-link-http';
+
+const cache = new InMemoryCache();
+const link = new HttpLink({
+  uri: 'http://localhost:4044/graphql/'
+})
+
+
+// 1. apollo client setup
+const client = new ApolloClient ({
+  cache, 
+  link,
+})
+
+function App() {
+  return (
+    <ApolloProvider client={client}>
+      <div className="App">
+        <h1>Liste d'Octocats</h1>
+        <OctocatList/>
+      </div>
+    </ApolloProvider>
+  );
+}
+export default App;
+```   
+
+##
