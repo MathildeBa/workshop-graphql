@@ -6,6 +6,8 @@ Dans ce repo chaque étape est séparée sur des branches différentes.
 
 Les animateurs de ce workshop on eut énormément des challenges à relever, mais également beaucoup de plaisir à le réaliser.
 
+## introduction   
+## GraphQL en 2 mots   
 ## step 1 - preparation du server GraphQL.
 ## Step2 - preparation du serveur GraphQL (II)
 ## Step3 - Mise en place du graphQL schema
