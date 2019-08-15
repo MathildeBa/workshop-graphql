@@ -1,15 +1,40 @@
 # workshop-loveson-graphql : Connecter une API à une app React.js, via GraphQL (schéma et environnement)
 
 ## Workshop 
-Jeudi 11 juillet 2019. Présentation d'un workshop qui aura pour sujet :'affichage d'une API en React js via un schéma GraphQL'.    Animateurs : Corneliu GAINA et Mathilde BAQUET. 
-   Les animateurs de ce workshop on eut énormément des challenges à relever, mais également beaucoup de plaisir à le réaliser. 
-   Durée : 7 h.   
-  
-- Dans ce repo chaque étape est séparée sur des branches différentes.      
+Jeudi 11 juillet 2019. Présentation d'un workshop, dans le cadre de la formation BeCode, qui a pour sujet : affichage d'une API en ReactJS, via un schéma GraphQL. L'objectif est d'initier le participant à ce qu'est GraphQL, ses avantages, et la configuration d'un environnement de développement javascript; soit une application front-end React.js, connectée à une source de donnée requêtable (ici, une simple API JSON) via une schéma GraphQL situé dans un environnement serveur NodeJS + Express. 
+
+Le workshop est inspiré de l'instructeur youtubeur [NetNinja](https://www.youtube.com/watch?v=Y0lDGjwRYKw&list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f), qui utilise MongoDB (donc le stack MERN : MongoDB, Express, React, Node). 
+
+
+   Les instructeurs de ce workshop, Corneliu GAINA et Mathilde BAQUET, ont eu énormément des challenges à relever, mais également beaucoup de plaisir à le réaliser. 
+   Durée : 7 h.
+   
 - Présentation et ressources dans ces (20) slides : https://docs.google.com/presentation/d/1UDlUcErCmTfyaajZXjnlxrwdAkIh--js7Cfnlim6JDQ/edit#slide=id.g5d0a49c5d2_0_12 
-- Interview Vidéo : [Youtube - BeCode Brussels - Workshop Connexion React and API via schema GraphQL // July 2019](https://www.youtube.com/watch?v=A3vPCfAJaN4)
+- Interview Vidéo par [Estelle Mol](https://github.com/Estelle111): [Youtube - BeCode Brussels - Workshop Connexion React and API via schema GraphQL // July 2019](https://www.youtube.com/watch?v=A3vPCfAJaN4)
+   
+### Apercu des Technologies utilisées
+
+__React.js__ is a JavaScript library that allows us to construct user interfaces that are component-based and that can be dynamically updated depending on the state of an application. This allows us to create intentional, complex and yet organized user interfaces that fit nicely into the current state of modern web development.  
+
+__GraphQL__ is a syntax that describes how to ask for data, and is generally used to load data from a server to a client. GraphQL has three main characteristics: It lets the client specify exactly what data it needs. It makes it easier to aggregate data from multiple sources.  
+
+__Node.js__ uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications.  
+
+__Express.js__ handles things like cookies, parsing the request body, forming the response and handling routes. It also is the part of the application that listens to a socket to handle incoming requests. ... Express in a Node.js based framework which simplifies writing Server-side Code and Logic.
+
+
+| Corporate Face | Actual ID | GitHub | LinkedIn
+| :---: | :---: | :---: | :---: |
+|<img src="https://media.licdn.com/dms/image/C5603AQHuncCjWbovtg/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=8wSVFT2g5Pu0zxP2KNaN2VII7p_zW-6nPmHmDoVoaFE" width="300" /> | Mathilde BAQUET | [MathildeBa](http://github.com/MathildeBa) | [https://www.linkedin.com/in/mathilde-baquet-b44440122/](https://www.linkedin.com/in/mathilde-baquet-b44440122/)
+|<img src="https://media.licdn.com/dms/image/C5603AQFqPXmNVLzGbA/profile-displayphoto-shrink_200_200/0?e=1570665600&v=beta&t=OsP5KzS-a1CtQC3opyIYPjKfK0B4Cx6xl8Bt3z_V2Fg" width="300" /> | Corneliu GAINA | [corneliushka](http://github.com/corneliushka) | [https://www.linkedin.com/in/corneliugaina/](https://www.linkedin.com/in/corneliugaina/)
+
+
+
+
 
 ## Plan de la journée
+
+Dans ce repo chaque étape est séparée sur des branches différentes. Aller directement à la dernière branche/étape pour le code intégral et toutes les insctructions depuis le début. La dernière étape finit la configuration et l'initiation à l'objectif du workshop, libre à l'utilisateur d'aller plus loin et expérimenter l'API et/ou d'utiliser d'autres sources de données.
 
 ### introduction   
 ### GraphQL en 2 mots (cf. [slides](https://docs.google.com/presentation/d/1UDlUcErCmTfyaajZXjnlxrwdAkIh--js7Cfnlim6JDQ/edit#slide=id.g5d0a49c5d2_0_12)
@@ -20,6 +45,7 @@ Jeudi 11 juillet 2019. Présentation d'un workshop qui aura pour sujet :'afficha
 ### Step5 - Nouveau 'Type' et 'TypeRelation'
 ### Strepsils - Remplacer les dummy datas par une API.
 ### Strep7 - Ajout de REACT.js
+### Strep8 - Rendu des datas de l'API dans un component
 
 # Step1-preparation du server GraphQL.
 
