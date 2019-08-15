@@ -18,6 +18,8 @@ __React.js__ is a JavaScript library that allows us to construct user interfaces
 
 __GraphQL__ is a syntax that describes how to ask for data, and is generally used to load data from a server to a client. GraphQL has three main characteristics: It lets the client specify exactly what data it needs. It makes it easier to aggregate data from multiple sources.  
 
+__Apollo__ Client is the best way to use GraphQL to build client applications. The client is designed to help you quickly build a UI that fetches data with GraphQL, and can be used with any JavaScript front-end. ... Universally compatible: Apollo works with any build setup, any GraphQL server, and any GraphQL schema.
+
 __Node.js__ uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices. Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications.  
 
 __Express.js__ handles things like cookies, parsing the request body, forming the response and handling routes. It also is the part of the application that listens to a socket to handle incoming requests. ... Express in a Node.js based framework which simplifies writing Server-side Code and Logic.
